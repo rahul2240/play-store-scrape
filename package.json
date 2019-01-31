@@ -9,6 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "google-play-scraper": "^6.2.2"
+    "app-store-scraper": "^0.15.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "google-play-scraper": "^6.2.3",
+    "lodash": "^4.17.11"
   }
 }
