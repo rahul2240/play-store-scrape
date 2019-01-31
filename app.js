@@ -28,7 +28,7 @@ app.post('/app', async (req, res) => {
   appid = req.body.appid
 
   try {
-    let appname = await gplay.app({appId: appid});
+    let appname = await store.app({id: appid});
     res.status(200).send(appname);
   } catch(e) {
     res.status(400).send('app name doesnt exist');
